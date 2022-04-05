@@ -1,7 +1,7 @@
 export default {
 
   async fetch(request: Request, env: any, context: EventContext<unknown, string, Record<string, unknown>>) {
-    console.log(request.url, request.method, '----')
+
     let str = await env.DATATEST.get('dddd')
     return new Response(str, {
       headers: {
