@@ -1,0 +1,11 @@
+{
+    "root": true,
+    "extends": [
+      "typescript",
+      "prettier"
+    ],
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": "latest"
+  }
+}
